@@ -16,6 +16,11 @@ namespace Api
 
     public class ProductData : IProductData
     {
+        public ProductData()
+		{
+
+		}
+
         private readonly List<Product> products = new List<Product>
         {
             new Product
